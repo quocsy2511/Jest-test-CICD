@@ -53,6 +53,12 @@ export default function Home() {
         <div className="flex gap-4 items-center flex-col sm:flex-row bg-blue-700 w-full justify-center py-7 hover:bg-slate-500">
           <JestTest />
         </div>
+
+        <div className="flex gap-4 items-center flex-col sm:flex-row bg-blue-700 w-full justify-center py-7 hover:bg-slate-500">
+          <p className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+            Test CI CD
+          </p>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
