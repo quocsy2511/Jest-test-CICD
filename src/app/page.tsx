@@ -1,3 +1,4 @@
+import JestTest from "@/components/Test/JestTest";
 import Image from "next/image";
 
 export default function Home() {
@@ -47,6 +48,10 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+
+        <div className="flex gap-4 items-center flex-col sm:flex-row bg-blue-700 w-full justify-center py-7 hover:bg-slate-500">
+          <JestTest />
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
